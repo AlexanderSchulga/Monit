@@ -16,7 +16,7 @@ public class OpenForm extends JWindow {
     public OpenForm window;   //Публичное для тестов
 
     //OperatingSystemMXBean
-    //класс, для доступа к информации о системе
+    //интерфейс, для доступа к информации о системе
     private static final OperatingSystemMXBean osBean =
             ManagementFactory.getPlatformMXBean(OperatingSystemMXBean.class);
 
