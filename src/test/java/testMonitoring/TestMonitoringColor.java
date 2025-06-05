@@ -8,10 +8,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestMonitoringColor extends BaseTest{
-//    public static void main(String[] args) {
-//        TestMonitoringColor testM =  new TestMonitoringColor();
-//        testM.testColorLabelForeground();
-//    }
+
     @Test
     public void testColorLabelForeground() {
 
