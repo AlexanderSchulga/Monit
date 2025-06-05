@@ -5,14 +5,14 @@ import org.junit.jupiter.api.BeforeEach;
 
 public class BaseTest {
 
-    @BeforeEach//предусловие
+    @BeforeEach
     public void setUp(){
-        System.out.println("Старт");
+        System.out.println("РґРѕ");
     }
 
-    @AfterEach//посусловие
+    @AfterEach
     public void tearDown(){
-        System.out.println("Стоп");
+        System.out.println("РїРѕСЃР»Рµ");
     }
 }
 
