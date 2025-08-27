@@ -14,13 +14,13 @@ import java.net.URL;
 public class OpenForm extends JWindow {
 
     public OpenForm window;   //Публичное для тестов
-
+    public JPopupMenu contextMenu; //поле для контекстного меню //Публичное для тестов
     //OperatingSystemMXBean
     //интерфейс, для доступа к информации о системе
     private static final OperatingSystemMXBean osBean =
             ManagementFactory.getPlatformMXBean(OperatingSystemMXBean.class);
 
-    private JPopupMenu contextMenu; //поле для контекстного меню
+    //private JPopupMenu contextMenu; //поле для контекстного меню
     private SystemTray tray;
     private TrayIcon trayIcon;
 
